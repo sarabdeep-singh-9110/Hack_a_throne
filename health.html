@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Health Assessment</title>
+    <link rel="stylesheet" href="health.css">
+</head>
+<body>
+    <h1>Financial Health Assessment</h1>
+    <div class="container">
+        <label for="income">Annual Income (₹):</label>
+        <input type="number" id="income" placeholder="Enter your annual income">
+
+        <label for="expenses">Annual Expenses (₹):</label>
+        <input type="number" id="expenses" placeholder="Enter your annual expenses">
+
+        <label for="debt">Total Debt (₹):</label>
+        <input type="number" id="debt" placeholder="Enter your total debt">
+
+        <label for="savings">Total Savings (₹):</label>
+        <input type="number" id="savings" placeholder="Enter your total savings">
+
+        <button onclick="assessFinancialHealth()">Assess Financial Health</button>
+    </div>
+    <div class="result" id="result">
+        
+    </div>
+</body>
+</html>
